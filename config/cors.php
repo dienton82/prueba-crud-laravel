@@ -19,7 +19,10 @@ return [
 
     'allowed_methods' => ['*'],
 
-    'allowed_origins' => ['*'],
+    'allowed_origins' => [
+    'http://localhost:5173', // tu entorno local de Vite
+    'https://crud-frontend-gwxm.onrender.com', // tu site en Render
+],
 
     'allowed_origins_patterns' => [],
 
